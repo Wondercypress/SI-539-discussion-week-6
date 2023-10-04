@@ -1,0 +1,98 @@
+body{
+    line-height: 1.8;
+}
+
+header, nav{
+    padding: 20px 20px 20px 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+nav ul li{
+    margin-right: 20px;
+    display: inline-flex;
+    padding: 5%;
+    font-size: medium;
+    background-color: #bc8f8f;
+}
+
+nav a{ 
+    text-decoration: rebeccapurple;
+}
+
+a:visited{
+    color: gold;
+}
+
+.nav a.current{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+}
+
+h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h1, h2, h3{
+    margin: 10px;
+}
+
+.grid{
+    margin: 0 auto;
+    width: 90%;
+    border: 2px solid #000;
+    background-color: #f3f3f3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    border-radius: 15px;
+}
+    
+.grid div{
+    border: 1px solid #0000ff;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.grid img{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.grid div:nth-child(3n+1)  {
+    box-shadow: rebeccapurple 5px 5px 15px;
+}
+
+.grid div:nth-child(3n)  {
+    box-shadow: rebeccapurple -5px -5px 15px;
+}
+
+.grid div:nth-child(3n+2)  {
+    box-shadow: rebeccapurple 5px -5px 15px;
+}
+    
+p + p {
+    text-indent: 20px;
+}
+    
+p{
+    margin: 10px;
+}
+    
+.grid ul li{
+    margin: 5px;
+    line-height: 1.5;
+    list-style-type: disc;
+}
